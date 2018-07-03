@@ -25,9 +25,9 @@
 
 			<div class= "col-md-1">
 				<ul class="animated wow fadeInLeft nav nav-tabs nav-stacked menu" data-wow-duration="2.5s" data-wow-delay="1s">
-					<li><a href="index.html">Главная</a></li>
+					<li><a href="index.php">Главная</a></li>
 					<li><a href="">Блог</a></li>
-          <li><a href="AboutUS.html">О нас</a></li>
+          <li><a href="AboutUS.php">О нас</a></li>
 					<li><a href="services.html">Услуги</a></li>
 					<li><a href="#">Портфолио</a></li>
 					<li><a href="#">Контакты</a></li>
