@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Phenomena;
+    src: url(fonts/Phenomena-Regular.otf);
+		font-weight: normal;
+		font-style: normal;
+}
+
+
+body{
+	background-image:url(img/back.jpg);
+	margin: 0;
+}
+
+.logot{
+	 display: block;
+		margin: 0 auto;
+}
+
+
+a{
+	color: #d1d1d1;
+}
+
+#table{
+	border-radius: 10px 10px 10px 10px;
+	background: url(img/back2.png);
+	opacity:1;
+}
+
+p{
+	font-family: Phenomena;
+	color: #d1d1d1;
+	font-size: 15pt;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.Contacts{
+
+		color: #d1d1d1;
+		font-size: 15pt;
+		padding-right: 20%;
+}
+
+section{
+	width: 100%;
+	font-size: 9pt;
+}
+
+.footer{
+	position: fixed;
+	width: 100%;
+	left:0; bottom:0;
+	background: url(img/back2.png);
+	color: #d1d1d1;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
