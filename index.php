@@ -16,7 +16,7 @@
 <body>
 
 	<header>
-		<a href= "index.html"> <img class="animated wow fadeInDown logot" src="img/logo.png" width="595px" height="240px" align="center" 	data-wow-duration="1s"> </a>
+		<a href= "index.php"> <img class="animated wow fadeInDown logot" src="img/logo.png" width="595px" height="240px" align="center" 	data-wow-duration="1s"> </a>
 	</header>
 
 
@@ -28,7 +28,7 @@
 					<li><a href="index.php">Главная</a></li>
 					<li><a href="">Блог</a></li>
           <li><a href="AboutUS.php">О нас</a></li>
-					<li><a href="services.html">Услуги</a></li>
+					<li><a href="services.php">Услуги</a></li>
 					<li><a href="#">Портфолио</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
