@@ -30,7 +30,7 @@
           <li><a href="AboutUS.php">О нас</a></li>
 					<li><a href="services.php">Услуги</a></li>
 					<li><a href="#">Портфолио</a></li>
-					<li><a href="#">Контакты</a></li>
+					<li><a href="contact.php">Контакты</a></li>
 				</ul>
 			</div>
 
