@@ -27,6 +27,14 @@ a{
 	opacity:1;
 }
 
+.tags{
+  background-image: url(/img/back2.png);
+  width: 100px;
+  height: 100px;
+  background-size: 100%;
+
+}
+
 p{
 	font-family: Phenomena;
 	color: #d1d1d1;

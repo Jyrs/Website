@@ -15,23 +15,15 @@
 </head>
 
 <body>
-  <header>
-    	<a href= "index.php"> <img class="logot" src="img/logo.png" width="595px" height="240px" align="center"></a>
-  </header>
+
+	<?php include "includes/header.php"; ?>
 
 
 	<div class="row-fluid">
 		<div class= "col-md-2"></div>
 
 			<div class= "col-md-1">
-				<ul class="animated wow fadeInLeft nav nav-tabs nav-stacked menu">
-          <li><a href="index.php">Главная</a></li>
-					<li><a href="">Блог</a></li>
-          <li><a href="AboutUS.php">О нас</a></li>
-					<li><a href="services.php">Услуги</a></li>
-					<li><a href="#">Портфолио</a></li>
-					<li><a href="contact.php">Контакты</a></li>
-				</ul>
+				<?php include "includes/menu.php"; ?>
 			</div>
 
 		<div class= "wow animated fadeInUp col-md-6"	data-wow-duration="1s" >
@@ -40,10 +32,7 @@
 		</div>
 	</div>
 
-<footer class= " col-md-12 footer">
-		<p class = "col-xs-12 col-sm-12 col-md-12 col-lg-12 Contacts" align = "right"> gj-krsnv@ya.ru <br> gj-buldakov@ya.ru </br><p>
-			<section class= "col-xs-12 col-sm-12 col-md-12 col-lg-12 copyright" align = "center" >&copy; GJ SOFTWARE 2018</section>
-</footer>
+	<?php include "includes/footer.php"; ?>
 
 
 </body>
