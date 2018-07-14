@@ -27,12 +27,31 @@ a{
 	opacity:1;
 }
 
-.tags{
-  background-image: url(/img/back2.png);
-  width: 100px;
-  height: 100px;
-  background-size: 100%;
 
+
+.tags{
+  background: url(/img/back2.png);
+  width: 350px;
+  font-size: 12pt;
+  border-radius: 10px 10px 10px 10px;
+  padding: 30px 30px 30px 20px;
+  
+}
+
+.tags_des{
+  font-family: Phenomena;
+  color: #e0e0e0;
+  background-color: rgba(111, 179, 222, 0.3);
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  white-space: nowrap;
+  margin-bottom: 20px;
+  line-height: 2;
+}
+
+.tags_des:hover{
+  background-color: rgba(235, 235, 235, 0.8);
+  color:#5c7e9c;
 }
 
 p{
@@ -41,6 +60,7 @@ p{
 	font-size: 15pt;
   padding: 10px;
   padding-bottom: 20px;
+
 }
 
 .Contacts{

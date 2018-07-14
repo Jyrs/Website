@@ -31,20 +31,20 @@
 			<?php include "includes/menu.php"; ?>
 			</div>
 
-		<div class= "wow animated fadeInUp col-md-6"	data-wow-duration="1s" >
+		<div class= "wow animated fadeInUp col-xs-12 col-sm-12 col-md-6"	data-wow-duration="1s" >
 			<table id = "table" border="0" width="100%" height="100%"  cellpadding="10" align="center">
 				<tr><th>
           <p>	Тут блог <p>
         </th></tr></table>
 		</div>
 
-			<div class = "col-md-3 tags">
-				<?php $tags = mysqli_query($connection, "SELECT * FROM `tagss`")?>
-				<?php while($tags_result = mysqli_fetch_assoc($tags))
+			<div class = "wow animated fadeInRight col-xs-12 col-sm-12 col-md-3 tags" data-wow-duration="1s">
+				<?php $tags = mysqli_query($connection, "SELECT * FROM `tagss`");
+ 							while($tags_result = mysqli_fetch_assoc($tags))
 						{
-						?>
-						<p> <?php	echo $tags_result['titles'] . ' '; ?></p>
-				<?php
+							?>
+							<a  class="tags_des" href="#"><?php	echo $tags_result['titles']; ?><a>
+						<?php
 						}
 						?>
 			</div>
