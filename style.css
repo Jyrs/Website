@@ -35,7 +35,7 @@ a{
   font-size: 12pt;
   border-radius: 10px 10px 10px 10px;
   padding: 30px 30px 30px 20px;
-  
+
 }
 
 .tags_des{
@@ -53,6 +53,42 @@ a{
   background-color: rgba(235, 235, 235, 0.8);
   color:#5c7e9c;
 }
+
+.article_name:hover{
+    color:  rgba(111, 179, 222, 1);
+}
+
+  .article_image{
+    width:80px;
+    height: 80px;
+    float:left;
+    background-color: black;
+    overflow: inherit;
+    margin: 10px;
+    background-size:contain;
+
+  }
+  .article_info_meta{
+  	color: #d1d1d1;
+  	font-size: 12pt;
+    padding-bottom: 5px;
+  }
+
+
+  .article_info_preview{
+    font-family: Phenomena;
+  	color: #d1d1d1;
+  	font-size: 13pt;
+  }
+  .data{
+    float:right;
+    color: #d1d1d1;
+    padding-right: 10px;
+  }
+
+
+
+
 
 p{
 	font-family: Phenomena;
