@@ -4,6 +4,12 @@
 		font-weight: normal;
 		font-style: normal;
 }
+@font-face {
+    font-family: Phenomena;
+    src: url(/fonts/Phenomena-Bold.otf);
+		font-weight: bold;
+		font-style: normal;
+}
 
 
 body{
@@ -16,10 +22,10 @@ body{
 		margin: 0 auto;
 }
 
-
 a{
-	color: #d1d1d1;
+  color: #e0e0e0;
 }
+
 
 #table{
 	border-radius: 10px 10px 10px 10px;
@@ -51,11 +57,16 @@ a{
 
 .tags_des:hover{
   background-color: rgba(235, 235, 235, 0.8);
-  color:#5c7e9c;
+}
+.article_name{
+  display: inline-block;
 }
 
 .article_name:hover{
-    color:  rgba(111, 179, 222, 1);
+    background-color:rgba(235, 235, 235, 0.9);
+    border-radius: 3px 3px 3px 3px;
+    color: #e0e0e0;
+
 }
 
   .article_image{
@@ -79,6 +90,7 @@ a{
     font-family: Phenomena;
   	color: #d1d1d1;
   	font-size: 13pt;
+    font-weight: normal;
   }
   .data{
     float:right;
@@ -86,17 +98,64 @@ a{
     padding-right: 10px;
   }
 
+.contact{
+  background: url(/img/back2.png);
+  width: 350px;
+  font-size: 12pt;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px 20px 30px 20px;
+}
+.shares{
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 10px;
 
+}
+.link{
+  margin:0 10px 10px 0;
+}
+.link:hover{
+  color:rgba(111, 179, 222, 1);
+}
 
+.mail{
+  color: #d1d1d1;
+  text-decoration: underline;
+}
+
+.mail:hover{
+  color: #d1d1d1;
+}
+.mail:visited{
+  color: #d1d1d1;
+}
+
+h2{
+  margin: 0px;
+  padding:15px;
+  font-family: Phenomena;
+  font-weight: bold;
+}
+
+h3{
+  margin: 0px;
+  padding:15px;
+  font-family: Phenomena;
+  font-weight: bold;
+}
 
 
 p{
 	font-family: Phenomena;
 	color: #d1d1d1;
 	font-size: 15pt;
-  padding: 10px;
-  padding-bottom: 20px;
+  margin: 0px;
+  font-weight: normal;
+}
 
+.contacts-info{
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .Contacts{
@@ -109,6 +168,77 @@ p{
 section{
 	width: 100%;
 	font-size: 9pt;
+}
+
+input::-moz-placeholder {
+  color:#d1d1d1;
+}
+input::-webkit-input-placeholder {
+  color:#d1d1d1;
+}
+textarea::-moz-placeholder{
+  color:#d1d1d1;
+}
+
+textarea::-webkit-input-placeholder{
+  color:#d1d1d1;
+}
+
+#inline {
+   margin-left:30px;
+   width:80%;
+   margin:0 auto;
+   padding:10px 20px;
+ }
+ .txt {
+   font-family: Phenomena;
+   font-weight: normal;
+   background-color: rgba(111, 179, 222, 0.15);
+   display:inline-block;
+   color:#d1d1d1;
+   width:190px;
+   margin-bottom:10px;
+   border:1px solid #CCC;
+   padding:5px 9px;
+   font-size:20px!important;
+   line-height:1.4em;
+   border-radius: 5px 5px 5px 5px;
+}
+
+.txtarea {
+  font-family: Phenomena;
+  font-weight: normal;
+   background-color: rgba(111, 179, 222, 0.15);
+   display:inline-block;
+   color:#d1d1d1;
+   width:617px;
+   margin-bottom:10px;
+   border:1px solid #CCC;
+   padding:5px 9px;
+   font-size:20px!important;
+   line-height:1.4em;
+   height:80px;
+   border-radius: 5px 5px 5px 5px;
+}
+
+#send {
+     font-size:20px!important;
+    font-family: Phenomena;
+    font-weight: normal;
+    color:#FFFFFF;
+    display:block;
+    cursor:pointer;
+    padding:5px 11px;
+    font-size:1.2em;
+    border:solid 1px #F9F9F9;
+    border-radius:2px;
+    background:rgba(111, 179, 222, 0.1);
+    width:210px;
+    margin-bottom:20px;
+    border-radius: 5px 5px 5px 5px;
+}
+#send:hover {
+    background:rgba(111, 179, 222, 0.5);
 }
 
 .footer{
